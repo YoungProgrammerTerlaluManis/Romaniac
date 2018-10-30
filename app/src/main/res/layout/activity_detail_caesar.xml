@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/biruback"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/fotonya"
+        android:layout_width="298dp"
+        android:layout_height="313dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/fotonya" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_below="@+id/fotonya"
+        android:text="Galius Julius Caesar adalah seorang pemimpin militer dan politikus Romawi yang kekuasaannya terhadap Gallia Comata memperluas dunia Romawi hingga Oceanus Atlanticus, melancarkan serangan Romawi pertama ke Britania, dan memperkenalkan pengaruh Romawi terhadap Gaul (Perancis kini), sebuah pencapaian yang akibat langsungnya masih terlihat hingga kini." 
+        android:textSize="17dp"/>
+
+
+    <Button
+        android:id="@+id/spqr"
+        android:layout_width="119dp"
+        android:layout_height="89dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/spkqqr" />
+</RelativeLayout>

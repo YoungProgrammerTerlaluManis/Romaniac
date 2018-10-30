@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RomawiActivity"
+    android:orientation="vertical"
+    android:background="@drawable/petanegara">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/petaromawi"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="239dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="39dp"
+        android:text="Kekaisaran Romawi (bahasa Latin: Imperium Romanum) adalah periode pasca-Republik dari peradaban Romawi kuno, dicirikan dengan pemerintahan yang dipimpin oleh kaisar, dan kepemilikan wilayah kekuasaan yang luas di sekitar Laut Tengah di Eropa, Afrika, dan Asia. ketika Julius Caesar dinobatkan sebagai diktator seumur hidup dan kemudian dibunuh pada tahun 44 SM. Perang saudara dan pengeksekusian terus berlangsung, yang berpuncak pada kemenangan Oktavianus, putra angkat Caesar, atas Mark Antony dan Kleopatra dalam Pertempuran Actium serta ditaklukkannya Mesir." />
+
+
+    <Button
+        android:id="@+id/augustus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Augustus"/>
+
+</RelativeLayout>
